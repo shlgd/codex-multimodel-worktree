@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-model worktree runner"
+  short_description: "Run one prompt across models; export report-only diffs"
+  default_prompt: "Use $codex-multimodel-worktree. Models: <comma-separated> (optional effort per model). Prompt: <paste your full prompt>. (Returns only output report paths; does not apply changes.)"
